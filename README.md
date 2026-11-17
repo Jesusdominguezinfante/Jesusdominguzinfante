@@ -27,7 +27,7 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <img src="./icon-device-laptop-400.png" width="32" align="absmiddle" alt="Icono 1" />&nbsp;&nbsp;<b>Sobre mí:</b>
+      <img src="./icono1.png" width="32" align="absmiddle" alt="Icono 1" />&nbsp;&nbsp;<b>Sobre mí:</b>
       <br/><br/>
       <sub>Me encanta escribir código limpio, crear soluciones prácticas y aprender constantemente nuevas tecnologías.</sub>
     </td>
