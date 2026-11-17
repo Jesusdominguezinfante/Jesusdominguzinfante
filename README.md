@@ -24,17 +24,21 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Story+Script&pause=1000&color=FF0000&vCenter=true&width=435&lines=About+Me" alt="About Me" />
 </div>
 
-<div align="left">
-  <p>
-    Hi! I'm <b>Jesús Domínguez Infante</b>, a passionate <b>Full Stack Web Developer</b> focused on building modern, efficient, and scalable web applications.
-  </p>
-  <p>
-    💻 I love writing clean code, creating practical solutions, and constantly learning new technologies.
-  </p>
-  <p>
-    📫 Open to opportunities: <b>jesusdominguezinfante@gmail.com</b>
-  </p>
-</div>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="./icon-device-laptop-400.png" width="32" align="absmiddle" alt="Icono 1" />&nbsp;&nbsp;<b>Sobre mí:</b>
+      <br/><br/>
+      <sub>Me encanta escribir código limpio, crear soluciones prácticas y aprender constantemente nuevas tecnologías.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <img src="./icono2.png" width="32" align="absmiddle" alt="Icono 2" />&nbsp;&nbsp;<b>Contacto</b>
+      <br/><br/>
+      <sub>Si deseas contactarme: <a href="mailto:jesusdominguezinfante@gmail.com"><b>jesusdominguezinfante@gmail.com</b></a></sub>
+    </td>
+  </tr>
+</table>
+
 <div>
   <img src="https://readme-typing-svg.herokuapp.com?font=Story+Script&pause=1000&color=FF0000&vCenter=true&width=435&lines=Tech+Stack" alt="Tech Stack" /"
 </div>
