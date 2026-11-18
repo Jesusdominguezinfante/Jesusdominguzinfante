@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-<img width="2172" height="724" alt="banner" src="https://github.com/user-attachments/assets/0047a47f-dba5-4a7c-8417-6ae4aeefe12d" />
+  <img src="./recursos/banner.svg" width="100%" alt="Banner Jesús Domínguez" />
 </div>
 
 <div align="center">
@@ -24,21 +24,9 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Story+Script&pause=1000&color=FF0000&vCenter=true&width=435&lines=About+Me" alt="About Me" />
 </div>
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <img src="./icono1.png" width="32" align="absmiddle" alt="Icono 1" />&nbsp;&nbsp;<b>Sobre mí:</b>
-      <br/><br/>
-      <sub>Me encanta escribir código limpio, crear soluciones prácticas y aprender constantemente nuevas tecnologías.</sub>
-    </td>
-    <td width="50%" valign="top">
-      <img src="./icono2.png" width="32" align="absmiddle" alt="Icono 2" />&nbsp;&nbsp;<b>Contacto</b>
-      <br/><br/>
-      <sub>Si deseas contactarme: <a href="mailto:jesusdominguezinfante@gmail.com"><b>jesusdominguezinfante@gmail.com</b></a></sub>
-    </td>
-  </tr>
-</table>
-
+<div align="center">
+  <img src="./recursos/Tabla.svg" width="100%" alt="About Me and Contact" />
+</div>
 <div>
   <img src="https://readme-typing-svg.herokuapp.com?font=Story+Script&pause=1000&color=FF0000&vCenter=true&width=435&lines=Tech+Stack" alt="Tech Stack" /"
 </div>
