@@ -1,0 +1,223 @@
+<svg width="900" height="410" viewBox="0 0 900 410" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title {
+      font-family: 'Segoe UI', 'Trebuchet MS', sans-serif;
+      font-weight: 800;
+      font-size: 17px;
+      fill: #FFFFFF;
+      letter-spacing: 0.8px;
+    }
+    .body-text {
+      font-family: 'Segoe UI', sans-serif;
+      font-size: 13.5px;
+      fill: #E6EDF3;
+    }
+    .email-link {
+      font-family: 'Segoe UI', sans-serif;
+      font-size: 13.5px;
+      fill: #58A6FF;
+      text-decoration: underline;
+    }
+
+    @keyframes driftSlow {
+      0%, 100% { transform: translateY(-2.5px); }
+      50% { transform: translateY(2.5px); }
+    }
+    @keyframes driftReverse {
+      0%, 100% { transform: translateY(2.5px); }
+      50% { transform: translateY(-2.5px); }
+    }
+
+    .float-a { animation: driftSlow 4.5s ease-in-out infinite; }
+    .float-b { animation: driftReverse 5.2s ease-in-out infinite; }
+    .float-c { animation: driftSlow 4.8s ease-in-out infinite; }
+    .float-d { animation: driftReverse 5.5s ease-in-out infinite; }
+  </style>
+
+  <defs>
+    <clipPath id="clip-top">
+      <rect x="1" y="1" width="898" height="174" rx="6"/>
+    </clipPath>
+    <clipPath id="clip-bot-1">
+      <rect x="1" y="175" width="299" height="234"/>
+    </clipPath>
+    <clipPath id="clip-bot-2">
+      <rect x="300" y="175" width="300" height="234"/>
+    </clipPath>
+    <clipPath id="clip-bot-3">
+      <rect x="600" y="175" width="299" height="234"/>
+    </clipPath>
+    <clipPath id="clip-outer">
+      <rect x="1" y="1" width="898" height="408" rx="6"/>
+    </clipPath>
+  </defs>
+
+  <!-- FONDO BASE OSCURO -->
+  <rect x="1" y="1" width="898" height="408" rx="6" fill="#0D1117"/>
+
+  <g clip-path="url(#clip-outer)">
+    <!-- ONDAS DE FONDO: CELDA SUPERIOR (MY APPROACH) -->
+    <g clip-path="url(#clip-top)">
+      <path fill="#D93D37" fill-opacity="0.18">
+        <animate attributeName="d" dur="7s" repeatCount="indefinite"
+          values="
+            M0,130 C225,165 335,100 450,130 C565,160 675,100 900,130 L900,176 L0,176 Z;
+            M0,130 C200,100 360,165 450,130 C580,100 700,165 900,130 L900,176 L0,176 Z;
+            M0,130 C225,165 335,100 450,130 C565,160 675,100 900,130 L900,176 L0,176 Z
+          " />
+      </path>
+      <path fill="#D93D37" fill-opacity="0.28">
+        <animate attributeName="d" dur="5.5s" repeatCount="indefinite"
+          values="
+            M0,142 C200,115 350,170 450,142 C550,115 700,170 900,142 L900,176 L0,176 Z;
+            M0,142 C250,170 320,115 450,142 C580,170 680,115 900,142 L900,176 L0,176 Z;
+            M0,142 C200,115 350,170 450,142 C550,115 700,170 900,142 L900,176 L0,176 Z
+          " />
+      </path>
+      <path fill="#D93D37" fill-opacity="0.42">
+        <animate attributeName="d" dur="4.5s" repeatCount="indefinite"
+          values="
+            M0,154 C240,175 340,130 450,154 C560,175 660,130 900,154 L900,176 L0,176 Z;
+            M0,154 C210,130 370,175 450,154 C530,130 690,175 900,154 L900,176 L0,176 Z;
+            M0,154 C240,175 340,130 450,154 C560,175 660,130 900,154 L900,176 L0,176 Z
+          " />
+      </path>
+    </g>
+
+    <!-- ONDAS DE FONDO: COLUMNA INFERIOR 1 (MY MINDSET) -->
+    <g clip-path="url(#clip-bot-1)">
+      <path fill="#D93D37" fill-opacity="0.18">
+        <animate attributeName="d" dur="6.5s" repeatCount="indefinite"
+          values="
+            M0,350 C75,385 110,320 150,350 C190,380 225,320 300,350 L300,410 L0,410 Z;
+            M0,350 C65,320 120,385 150,350 C180,320 235,385 300,350 L300,410 L0,410 Z;
+            M0,350 C75,385 110,320 150,350 C190,380 225,320 300,350 L300,410 L0,410 Z
+          " />
+      </path>
+      <path fill="#D93D37" fill-opacity="0.30">
+        <animate attributeName="d" dur="5s" repeatCount="indefinite"
+          values="
+            M0,365 C70,335 115,390 150,365 C185,335 230,390 300,365 L300,410 L0,410 Z;
+            M0,365 C85,390 105,335 150,365 C195,390 220,335 300,365 L300,410 L0,410 Z;
+            M0,365 C70,335 115,390 150,365 C185,335 230,390 300,365 L300,410 L0,410 Z
+          " />
+      </path>
+      <path fill="#D93D37" fill-opacity="0.45">
+        <animate attributeName="d" dur="4s" repeatCount="indefinite"
+          values="
+            M0,380 C80,400 110,355 150,380 C190,400 220,355 300,380 L300,410 L0,410 Z;
+            M0,380 C70,355 120,400 150,380 C180,355 230,400 300,380 L300,410 L0,410 Z;
+            M0,380 C80,400 110,355 150,380 C190,400 220,355 300,380 L300,410 L0,410 Z
+          " />
+      </path>
+    </g>
+
+    <!-- ONDAS DE FONDO: COLUMNA INFERIOR 2 (BEYOND CODE) -->
+    <g clip-path="url(#clip-bot-2)">
+      <path fill="#D93D37" fill-opacity="0.18">
+        <animate attributeName="d" dur="7.2s" repeatCount="indefinite"
+          values="
+            M300,350 C365,320 420,385 450,350 C480,320 535,385 600,350 L600,410 L300,410 Z;
+            M300,350 C375,385 410,320 450,350 C490,380 525,320 600,350 L600,410 L300,410 Z;
+            M300,350 C365,320 420,385 450,350 C480,320 535,385 600,350 L600,410 L300,410 Z
+          " />
+      </path>
+      <path fill="#D93D37" fill-opacity="0.30">
+        <animate attributeName="d" dur="5.4s" repeatCount="indefinite"
+          values="
+            M300,365 C385,390 405,335 450,365 C495,390 520,335 600,365 L600,410 L300,410 Z;
+            M300,365 C370,335 415,390 450,365 C485,335 530,390 600,365 L600,410 L300,410 Z;
+            M300,365 C385,390 405,335 450,365 C495,390 520,335 600,365 L600,410 L300,410 Z
+          " />
+      </path>
+      <path fill="#D93D37" fill-opacity="0.45">
+        <animate attributeName="d" dur="4.3s" repeatCount="indefinite"
+          values="
+            M300,380 C370,355 420,400 450,380 C480,355 530,400 600,380 L600,410 L300,410 Z;
+            M300,380 C380,400 410,355 450,380 C490,400 520,355 600,380 L600,410 L300,410 Z;
+            M300,380 C370,355 420,400 450,380 C480,355 530,400 600,380 L600,410 L300,410 Z
+          " />
+      </path>
+    </g>
+
+    <!-- ONDAS DE FONDO: COLUMNA INFERIOR 3 (CONTACT) -->
+    <g clip-path="url(#clip-bot-3)">
+      <path fill="#D93D37" fill-opacity="0.18">
+        <animate attributeName="d" dur="6.8s" repeatCount="indefinite"
+          values="
+            M600,350 C675,385 710,320 750,350 C790,380 825,320 900,350 L900,410 L600,410 Z;
+            M600,350 C665,320 720,385 750,350 C780,320 835,385 900,350 L900,410 L600,410 Z;
+            M600,350 C675,385 710,320 750,350 C790,380 825,320 900,350 L900,410 L600,410 Z
+          " />
+      </path>
+      <path fill="#D93D37" fill-opacity="0.30">
+        <animate attributeName="d" dur="5.1s" repeatCount="indefinite"
+          values="
+            M600,365 C670,335 715,390 750,365 C785,335 830,390 900,365 L900,410 L600,410 Z;
+            M600,365 C685,390 705,335 750,365 C795,390 820,335 900,365 L900,410 L600,410 Z;
+            M600,365 C670,335 715,390 750,365 C785,335 830,390 900,365 L900,410 L600,410 Z
+          " />
+      </path>
+      <path fill="#D93D37" fill-opacity="0.45">
+        <animate attributeName="d" dur="4.2s" repeatCount="indefinite"
+          values="
+            M600,380 C680,400 710,355 750,380 C790,400 820,355 900,380 L900,410 L600,410 Z;
+            M600,380 C670,355 720,400 750,380 C780,355 830,400 900,380 L900,410 L600,410 Z;
+            M600,380 C680,400 710,355 750,380 C790,400 820,355 900,380 L900,410 L600,410 Z
+          " />
+      </path>
+    </g>
+  </g>
+
+  <!-- BORDES DE REJILLA -->
+  <rect x="1" y="1" width="898" height="408" rx="6" stroke="#30363D" stroke-width="1.5"/>
+  <line x1="1" y1="175" x2="899" y2="175" stroke="#30363D" stroke-width="1.5"/>
+  <line x1="300" y1="175" x2="300" y2="409" stroke="#30363D" stroke-width="1.5"/>
+  <line x1="600" y1="175" x2="600" y2="409" stroke="#30363D" stroke-width="1.5"/>
+
+  <!-- CONTENIDO: FILA SUPERIOR (MY APPROACH) -->
+  <g class="float-a">
+    <!-- ESPACIO PARA TU ICONO 1 (x="24" y="24") -->
+    <text x="24" y="42" class="title">My Approach:</text>
+    <text x="24" y="75" class="body-text">
+      <tspan x="24" dy="0">I love writing clean code, building practical solutions, and constantly learning new technologies. I am proactive, detail-</tspan>
+      <tspan x="24" dy="22">oriented, and enjoy solving complex problems. I thrive in collaborative environments and adapt quickly to new challenges.</tspan>
+      <tspan x="24" dy="22">Currently, I am focused on learning new things and expanding my core foundations.</tspan>
+    </text>
+  </g>
+
+  <!-- CONTENIDO: COLUMNA INFERIOR 1 (MY MINDSET) -->
+  <g class="float-b">
+    <!-- ESPACIO PARA TU ICONO 2 (x="24" y="198") -->
+    <text x="24" y="216" class="title">My Mindset:</text>
+    <text x="24" y="250" class="body-text">
+      <tspan x="24" dy="0">I consider myself a patient person who</tspan>
+      <tspan x="24" dy="22">enjoys helping others. I believe every</tspan>
+      <tspan x="24" dy="22">challenge is an opportunity to grow, and I</tspan>
+      <tspan x="24" dy="22">always bring positive energy to myself and</tspan>
+      <tspan x="24" dy="22">the people I care about.</tspan>
+    </text>
+  </g>
+
+  <!-- CONTENIDO: COLUMNA INFERIOR 2 (BEYOND CODE) -->
+  <g class="float-c">
+    <!-- ESPACIO PARA TU ICONO 3 (x="324" y="198") -->
+    <text x="324" y="216" class="title">Beyond Code:</text>
+    <text x="324" y="250" class="body-text">
+      <tspan x="324" dy="0">My biggest hobbies are movies and TV</tspan>
+      <tspan x="324" dy="22">series, though I'm also a big fan of video</tspan>
+      <tspan x="324" dy="22">games. And music is always with me</tspan>
+      <tspan x="324" dy="22">wherever I go.</tspan>
+    </text>
+  </g>
+
+  <!-- CONTENIDO: COLUMNA INFERIOR 3 (CONTACT) -->
+  <g class="float-d">
+    <!-- ESPACIO PARA TU ICONO 4 (x="624" y="198") -->
+    <text x="624" y="216" class="title">Contact:</text>
+    <text x="624" y="250" class="body-text">
+      <tspan x="624" dy="0">If you would like to contact me:</tspan>
+      <tspan x="624" dy="24" class="email-link">jesusdominguezinfante@gmail.com</tspan>
+    </text>
+  </g>
+</svg>
